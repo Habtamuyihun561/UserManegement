@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007A85"
+    android:orientation="vertical"
+    tools:context=".UserDetailActivity">
+
+    <ImageView
+        android:id="@+id/serImage"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/usersdetail"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="More Information About Users "
+        android:textColor="@color/txt_color"
+        android:textSize="18dp" />
+
+
+    <TextView
+        android:id="@+id/dfullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="20dp"
+        android:text="Full Name"
+        android:textColor="@color/txt_color"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/duserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="20dp"
+        android:text="User Name"
+        android:textColor="@color/txt_color"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/demail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="20dp"
+        android:text="User Email Address"
+        android:textColor="@color/txt_color"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/dpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="User Paasword"
+        android:textColor="@color/txt_color"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/dphone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="User Phone Number"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/txt_color"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/dgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="User Gender"
+        android:textColor="@color/txt_color"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

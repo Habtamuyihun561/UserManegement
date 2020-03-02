@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserRegisterActivity"
+    android:orientation="vertical"
+    android:background="#007A85">
+    <TextView
+        android:id="@+id/fulname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Full Name"
+        android:textColor="@color/txt_color"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/txt_color"
+        android:ems="10"
+        android:hint="enter full  name"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/txt_color"
+        android:text="User Name"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="enter user name"
+        android:textColorHint="@color/txt_color"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/email_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Email"
+        android:textColor="@color/txt_color"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/emaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="enter email address"
+        android:textColorHint="@color/txt_color"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Password"
+        android:textColor="@color/txt_color"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/upassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="enter password"
+        android:textColorHint="@color/txt_color"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/confirm_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Confirm"
+        android:textColor="@color/txt_color"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/confirmssword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="confirm  password "
+        android:textColorHint="@color/txt_color"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Phone Number"
+        android:textColor="@color/txt_color"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/phonom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:hint="enter phone number"
+        android:textColorHint="@color/txt_color"
+        android:inputType="textPersonName"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Gender"
+        android:textColor="@color/txt_color"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/rgender"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/male_radiButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="true"
+            android:text="Male"
+            android:textColor="@color/txt_color"/>
+
+        <RadioButton
+            android:id="@+id/female_radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="true"
+            android:text="Female"
+            android:textColor="@color/txt_color"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/user_registerbtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:clickable="true"
+            android:textSize="18dp"
+            android:onClick="registerData"
+            android:background="@color/txt_color"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:onClick="backbtn"
+            android:textSize="18dp"
+            android:background="@color/txt_color"
+            android:text="BACk" />
+    </LinearLayout>
+
+</LinearLayout>
