@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -15,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Button register;
     ImageView image;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         login=(Button) findViewById(R.id.loginFirst);
         register=(Button) findViewById(R.id.registerfirst);
         image=findViewById(R.id.users_image);
-
+        
 
     }
 

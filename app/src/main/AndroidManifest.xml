@@ -9,18 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UserRegisterActivity"
+        <activity
+            android:name=".UserRegisterActivity"
             android:label=" Registeration Page"
-            android:parentActivityName=".MainActivity"></activity>
-        <activity android:name=".UserLoginActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UserLoginActivity"
             android:label="Login Page"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".UserDetailActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UserDetailActivity"
             android:label="User Detail info"
-            android:parentActivityName=".UserInfoActivity"/>
-        <activity android:name=".UserInfoActivity"
+            android:parentActivityName=".UserInfoActivity" />
+        <activity
+            android:name=".UserInfoActivity"
             android:label="User List"
-            android:parentActivityName=".UserLoginActivity"/>
+            android:parentActivityName=".UserLoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
